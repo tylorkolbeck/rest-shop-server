@@ -4,7 +4,7 @@ const bodyParser = require('body-parser')
 const mongoose = require('mongoose')
 const app = express()
 
-const productRoutes = require('./api/routes/products')
+const productRoutes = require('./api/routes/products') // mountable route handlers
 const orderRoutes = require('./api/routes/orders')
 const userRoutes = require('./api/routes/user')
 
