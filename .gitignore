@@ -1,0 +1,5 @@
+# ignore al files in the node_modules directory
+/node_modules
+
+# ignore the file holding environment variables
+nodemon.json
